@@ -97,14 +97,6 @@ img {
   height: 100%;
 }
 
-@keyframes logo {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 * {
   box-sizing: border-box;
   margin: 0;
