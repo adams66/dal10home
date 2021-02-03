@@ -1,10 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #306BAC;
+}
+
+.links {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .hamburger {
   display: flex;
   cursor: pointer;
   position: relative;
   flex-direction: column;
   justify-content: center;
-  margin: 3px;
   width: 35px;
   height: 50px;
 }
@@ -63,7 +82,7 @@
 body {
   color: #fff;
   background-color: #121212;
-  padding: 20px;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
