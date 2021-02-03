@@ -1,0 +1,44 @@
+$line-color: #fff;
+
+
+
+
+.hamburger{
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 60px;
+}
+
+
+.hamburger > div{
+    background-color: $line-color;
+    width: 100%;
+    height: 2px;
+}
+
+
+.hamburger > div:before{
+    position: absolute;
+    content: "";
+    transform: translateY(-10px);
+    background-color: $line-color;
+    
+    width: 100%;
+    height: 2px;
+}
+
+.hamburger > div:after{
+    position: absolute;
+    content: "";
+    transform: translateY(10px);
+    background-color: $line-color;
+    
+    width: 100%;
+    height: 2px;
+}
+
