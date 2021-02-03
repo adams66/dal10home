@@ -13,7 +13,7 @@ $font-color: #fff;
 }
 
 .links{
-    display: flex;
+    display: none;
     width: 40%;
     justify-content: space-evenly
 }
@@ -21,4 +21,20 @@ $font-color: #fff;
 .nav-link a{
     text-decoration: none;
     color: $font-color;
+}
+
+
+
+@media only screen and (min-width: 600px){
+    
+    .header{
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .links{
+        display: flex;
+    }
+
+    
 }

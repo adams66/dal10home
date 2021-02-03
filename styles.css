@@ -9,7 +9,7 @@
 }
 
 .links {
-  display: flex;
+  display: none;
   width: 40%;
   justify-content: space-evenly;
 }
@@ -19,6 +19,16 @@
   color: #fff;
 }
 
+@media only screen and (min-width: 600px) {
+  .header {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .links {
+    display: flex;
+  }
+}
 .hamburger {
   display: flex;
   cursor: pointer;
@@ -74,6 +84,11 @@
   transform: translateY(0px) rotate(45deg);
 }
 
+@media only screen and (min-width: 600px) {
+  .hamburger {
+    display: none;
+  }
+}
 .container {
   display: flex;
   justify-content: center;
