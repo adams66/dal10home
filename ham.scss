@@ -1,4 +1,5 @@
 $line-color: #fff;
+$line-height: 3px;
 
 
 
@@ -9,36 +10,64 @@ $line-color: #fff;
     position: relative;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 3px;
+    
     width: 30px;
-    height: 60px;
+    height: 40px;
 }
 
 
-.hamburger > div{
-    background-color: $line-color;
-    width: 100%;
-    height: 2px;
-}
-
-
-.hamburger > div:before{
-    position: absolute;
-    content: "";
+.line1{
     transform: translateY(-10px);
-    background-color: $line-color;
-    
+    position: absolute;
+    left: 0;
+    right:0;
     width: 100%;
-    height: 2px;
+    height: $line-height;
+    background-color: $line-color;
+    transition: all 0.3s;
 }
 
-.hamburger > div:after{
+
+.line2{
+
     position: absolute;
-    content: "";
-    transform: translateY(10px);
-    background-color: $line-color;
-    
+    left: 0;
+    right:0;
     width: 100%;
-    height: 2px;
+    height: $line-height;
+    background-color: $line-color;
+    transition: all 0.3s;
 }
+
+
+.line3{
+    transform: translateY(10px);
+    position: absolute;
+    left: 0;
+    right:0;
+    width: 100%;
+    height: $line-height;
+    background-color: $line-color;
+    transition: all 0.3s;
+}
+
+
+.line1.open{
+    transform: translateY(0px) rotate(-45deg);
+}
+
+.line2.open{
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.line3.open{
+    transform: translateY(0px) rotate(45deg);
+}
+
+
+
+
+
 
