@@ -6,4 +6,6 @@ function openHam(){
 
 
 
-const hamburger = document.querySelector('.hamburger').addEventListener('click', openHam);
+
+
+const hamburger = document.querySelector('.hamburger').addEventListener('click', openHam);  
