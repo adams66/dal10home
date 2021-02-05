@@ -1,4 +1,4 @@
-$height: 500px;
+$height: 90vh;
 
 
 
@@ -9,20 +9,5 @@ $height: 500px;
     background-color: #202125;
     height: $height;
     border-radius: 8px;
-}
-
-.image-holder{
-    width: 200px;
-    height: 200px;
-    animation-name: logo;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    
-}
-
-img{
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
 }
 

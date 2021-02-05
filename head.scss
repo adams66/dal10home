@@ -14,13 +14,18 @@ $font-color: #fff;
 
 .links{
     display: none;
-    width: 40%;
+    width: 60%;
     justify-content: space-evenly
 }
 
 .nav-link a{
     text-decoration: none;
     color: $font-color;
+}
+
+
+.nav-link a:hover{
+    color: crimson;
 }
 
 

@@ -1,4 +1,5 @@
 $line-color: #fff;
+$line-open: crimson;
 $line-height: 3px;
 $width: 35px;
 $height: 50px;
@@ -54,15 +55,18 @@ $height: 50px;
 
 
 .line1.open{
+    background-color:$line-open;
     transform: translateY(0px) rotate(-45deg);
 }
 
 .line2.open{
+    background-color: $line-open;
     transform: translateX(10px);
     opacity: 0;
 }
 
 .line3.open{
+    background-color: $line-open;
     transform: translateY(0px) rotate(45deg);
 }
 
@@ -73,6 +77,8 @@ $height: 50px;
     .hamburger{
         display: none;
     }
+
+    
 }
 
 
