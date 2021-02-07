@@ -1,6 +1,11 @@
+
+
 @use "head";
 @use "ham";
 @use 'container';
+@use 'little-box-container';
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
 
@@ -16,10 +21,10 @@ $background-color: #121212;
 
 
 body {
-    
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
     background-color: $background-color;
-    padding: 15px;
+    padding: 30px 40px;
 }
 
 
