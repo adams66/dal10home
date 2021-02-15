@@ -1,0 +1,37 @@
+html{
+    font-size: 62.5%; //one Rem is 10px
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: 'Merriweather', serif;
+    background-color: $color-background;
+    box-sizing: border-box;
+}
+
+h1{
+    color: $color-white;
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+a{
+    
+    color: $color-white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+
+}
