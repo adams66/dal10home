@@ -31,13 +31,13 @@ a {
   text-transform: uppercase;
 }
 a:hover {
-  color: orange;
+  color: red;
 }
 
 /***********************/
 .hamburger {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
