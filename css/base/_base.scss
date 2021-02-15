@@ -48,6 +48,14 @@ a{
 }
 
 .header-title i{
+    cursor: pointer;
     color: #fff;
     font-size: 6.3rem;
+
+    &:hover{
+        color: red;
+        
+    }
 }
+
+
