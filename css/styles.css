@@ -196,11 +196,11 @@ a:hover {
 }
 @media screen and (min-width: 1000px) {
   h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
 
