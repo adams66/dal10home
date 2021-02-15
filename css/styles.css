@@ -17,7 +17,7 @@ body {
 
 h1 {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
 }
 
 h2 {
@@ -37,6 +37,15 @@ a {
 }
 a:hover {
   color: red;
+}
+
+.header-links i {
+  font-size: 3.5rem;
+}
+
+.header-title i {
+  color: #fff;
+  font-size: 6.3rem;
 }
 
 /***********************/
@@ -101,6 +110,10 @@ a:hover {
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
+}
+
+.header-title p {
+  margin-bottom: 3rem;
 }
 
 .particle {
