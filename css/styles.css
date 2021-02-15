@@ -17,7 +17,7 @@ body {
 
 h1 {
   color: #fff;
-  font-size: 6rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
 
 p {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -41,12 +41,12 @@ a:hover {
 
 /***********************/
 .hamburger {
-  cursor: pointer;
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   left: 3rem;
   top: 3.5rem;
   width: 5rem;
@@ -95,6 +95,7 @@ a:hover {
 }
 
 .header-title {
+  width: 100%;
   text-align: center;
   position: absolute;
   left: 50%;
@@ -182,6 +183,24 @@ a:hover {
 
   .header-links {
     display: flex;
+  }
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 2.5rem;
   }
 }
 

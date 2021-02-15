@@ -7,3 +7,23 @@
         display: flex;
     }
 }
+
+@media screen and (min-width: 800px){
+    h1{
+        font-size: $heading-md;
+    }
+
+    p{
+        font-size: $par-md;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    h1{
+        font-size: $heading-lg;
+    }
+
+    p{
+        font-size: $par-lg
+    }
+}
