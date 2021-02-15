@@ -102,6 +102,78 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+.particle {
+  opacity: 0.2;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: green;
+  animation-name: particle;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+}
+.particle-1 {
+  background-color: orange;
+  animation-delay: 3s;
+  left: 10%;
+  bottom: 0rem;
+}
+.particle-2 {
+  background-color: purple;
+  animation-delay: 1.2s;
+  left: 30%;
+  bottom: 0rem;
+}
+.particle-3 {
+  background-color: crimson;
+  animation-delay: 2s;
+  left: 41%;
+  bottom: 0rem;
+}
+.particle-4 {
+  background-color: cyan;
+  animation-delay: 6s;
+  left: 52%;
+  bottom: 0rem;
+}
+.particle-5 {
+  background-color: darkolivegreen;
+  animation-delay: 3.3s;
+  left: 63%;
+  bottom: 0rem;
+}
+.particle-6 {
+  background-color: deeppink;
+  animation-delay: 0.5s;
+  left: 75%;
+  bottom: 0rem;
+}
+.particle-7 {
+  background-color: firebrick;
+  animation-delay: 5.8s;
+  left: 85%;
+  bottom: 0rem;
+}
+.particle-8 {
+  background-color: orange;
+  animation-delay: 0.8s;
+  left: 95%;
+  bottom: 0rem;
+}
+
+@keyframes particle {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    background-color: #fff;
+    transform: translateY(-1050px) rotate(360deg);
+    opacity: 0.2;
+  }
+}
 /***********************/
 @media screen and (min-width: 600px) {
   .hamburger {
