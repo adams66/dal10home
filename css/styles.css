@@ -68,7 +68,6 @@ a:hover {
 }
 
 .header-container {
-  background-image: url("./Assets/stars.jpg");
   background-position: center center;
   background-size: cover;
   max-width: 100%;
