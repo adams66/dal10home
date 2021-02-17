@@ -1,6 +1,7 @@
 
 
 .intro-about{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +21,7 @@
 }
 
 .intro-grid{
+    
     margin-top: 2rem;
     display: flex;
     justify-content: center;
@@ -28,9 +30,10 @@
 
 
     & > .grid-item{
+        border-radius: 3px;
         margin: 2rem;
-        width: 30rem;
-        height: 40rem;
+        width: 35rem;
+        height: 43rem;
         background-color: #4feaf2;
     }
 }
