@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Merriweather", serif;
-  background-color: #0a0a0c;
+  background-color: black;
   box-sizing: border-box;
 }
 
@@ -22,7 +22,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  color: #fff;
+  font-size: 2.5rem;
 }
 
 p {
@@ -100,7 +101,7 @@ a:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.1));
+  background-image: linear-gradient(to top, rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.1));
   position: absolute;
   left: 0;
   bottom: 0;
@@ -133,6 +134,36 @@ a:hover {
 
 .header-title p {
   margin: 1rem 0 5.5rem 0;
+}
+
+.intro-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.intro-about > h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.intro-about > p {
+  line-height: 2.5rem;
+  max-width: 60rem;
+  font-size: 1.5rem;
+}
+
+.intro-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.intro-grid > .grid-item {
+  margin: 2rem;
+  width: 30rem;
+  height: 40rem;
+  background-color: #4feaf2;
 }
 
 .particle {
@@ -199,7 +230,7 @@ a:hover {
     transform: translateY(0);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.7;
   }
   100% {
     background-color: #fff;
@@ -219,7 +250,7 @@ a:hover {
 }
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 
   p {
