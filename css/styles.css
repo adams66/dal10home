@@ -37,7 +37,7 @@ a {
   text-transform: uppercase;
 }
 a:hover {
-  color: red;
+  color: #4feaf2;
 }
 
 .header-links i {
@@ -50,7 +50,7 @@ a:hover {
   font-size: 6.3rem;
 }
 .header-title i:hover {
-  color: red;
+  color: #4feaf2;
 }
 
 /***********************/
@@ -87,13 +87,23 @@ a:hover {
 }
 
 .header-container {
-  background-image: url("./Assets/sky.jpg");
+  background-image: url("./Assets/city.jpg");
   background-position: center;
   background-size: cover;
   max-width: 100%;
   height: 100vh;
   position: relative;
   overflow-x: hidden;
+}
+
+.header-container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.1));
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .header-nav {
@@ -108,6 +118,7 @@ a:hover {
   width: 100rem;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 1;
 }
 
 .header-title {
@@ -117,10 +128,11 @@ a:hover {
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .header-title p {
-  margin-bottom: 3rem;
+  margin: 1.5rem 0 6rem 0;
 }
 
 .particle {
@@ -216,11 +228,11 @@ a:hover {
 }
 @media screen and (min-width: 1000px) {
   h1 {
-    font-size: 5.5rem;
+    font-size: 6.5rem;
   }
 
   p {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 }
 
