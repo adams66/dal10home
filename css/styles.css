@@ -243,11 +243,11 @@ a:hover {
 .airplane img {
   position: absolute;
   left: -20rem;
-  top: 20rem;
+  top: 10rem;
   width: 20rem;
   height: 8rem;
   animation-name: airplane;
-  animation-duration: 30s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-direction: linear;
 }
