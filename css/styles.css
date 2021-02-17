@@ -240,26 +240,6 @@ a:hover {
     opacity: 0.2;
   }
 }
-.airplane img {
-  position: absolute;
-  left: -20rem;
-  top: 10rem;
-  width: 20rem;
-  height: 8rem;
-  animation-name: airplane;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-direction: linear;
-}
-
-@keyframes airplane {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(120vw);
-  }
-}
 /***********************/
 @media screen and (min-width: 600px) {
   .hamburger {
