@@ -16,6 +16,7 @@
     & > p{
         line-height: 2.5rem;
         max-width: 60rem;
+        margin: 0 3rem;
         font-size: 1.5rem;
     }
 }
@@ -30,6 +31,8 @@
 
 
     & > .grid-item{
+
+        
         border-radius: 3px;
         margin: 2rem;
         width: 35rem;

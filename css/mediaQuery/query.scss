@@ -9,21 +9,19 @@
 }
 
 @media screen and (min-width: 800px){
-    h1{
-        font-size: $heading-md;
-    }
-
-    p{
-        font-size: $par-md;
-    }
+        html{
+            font-size: $medium-screen;
+        }
 }
 
 @media screen and (min-width: 1000px){
-    h1{
-        font-size: $heading-lg;
-    }
+        html{
+            font-size: $large-screen;
+        }
+}
 
-    p{
-        font-size: $par-lg
+@media screen and (min-width: 1100px){
+    html{
+        font-size: $xl-screen;
     }
 }

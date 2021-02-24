@@ -1,5 +1,5 @@
 html{
-    font-size: 62.5%; //one Rem is 10px
+    font-size: $small-screen; //one Rem is 10px
     
 }
 
@@ -19,39 +19,38 @@ body{
 h1{
     letter-spacing: 3px;
     color: $color-white;
-    font-size: $heading-sm;
+    font-size: 5rem;
 }
 
 h2{
     color: $color-white;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 p{
     color: $color-white;
-    font-size: $par-sm;
+    font-size: 1.8rem;
 }
 
 a{
-    
     color: $color-white;
     font-size: 1.7rem;
     text-decoration: none;
     text-transform: uppercase;
     
-
- &:hover{
+     &:hover{
      color: $color-links;
- }
+     }
 }
 
-.header-links i {
+
+.header-links i{
     font-size: 3.5rem;
 }
 
 .header-title i{
     cursor: pointer;
-    color: #fff;
+    color: $color-white;
     font-size: 6.3rem;
 
     &:hover{
